@@ -1,0 +1,222 @@
+{
+ "title": "The Little Trader",
+ "hint": "Tap the glowing ledger to read it.",
+ "pages": [
+  {
+   "src": "images/cover-2000.webp",
+   "srcset": "images/cover-900.webp 900w, images/cover-1600.webp 1600w, images/cover-2000.webp 2000w",
+   "w": 2000,
+   "h": 2250,
+   "alt": "The front cover of the board book The Little Trader, A First Book of Value for Value: a scowling baby in a navy romper stands on three nursery blocks before a sunburst and city skyline, with a gold sticker reading A Goodenough First Reader. A band across the foot reads Big Ideas for Little Minds, Ayn Rand.",
+   "id": "cover",
+   "label": "Cover",
+   "spots": []
+  },
+  {
+   "src": "images/spread-01-2400.webp",
+   "srcset": "images/spread-01-900.webp 900w, images/spread-01-1600.webp 1600w, images/spread-01-2400.webp 2400w",
+   "w": 3040,
+   "h": 1800,
+   "alt": "Spread 1 of the board book. Baby, in a navy romper, stands on three nursery blocks before a sunburst and city skyline. On the right page a gold toy balance scale holds a block in each pan, level. Text: \"This is Baby. Baby is a trader.\" and \"A trader gives value for value.\"",
+   "id": "spread-01",
+   "label": "1\u20132",
+   "spots": []
+  },
+  {
+   "src": "images/spread-02-2400.webp",
+   "srcset": "images/spread-02-900.webp 900w, images/spread-02-1600.webp 1600w, images/spread-02-2400.webp 2400w",
+   "w": 3040,
+   "h": 1800,
+   "alt": "Spread 2. A nursery at night: crib, mobile hung with dollar signs, and a clock at 3:40. On the right, Mother walks the floor with sleeping Baby on her shoulder. Text: \"Baby will never live for anyone else.\" and \"And no one will ever live for Baby.\"",
+   "id": "spread-02",
+   "label": "3\u20134",
+   "spots": []
+  },
+  {
+   "src": "images/spread-03-2400.webp",
+   "srcset": "images/spread-03-900.webp 900w, images/spread-03-1600.webp 1600w, images/spread-03-2400.webp 2400w",
+   "w": 3040,
+   "h": 1800,
+   "alt": "Spread 3. A daytime kitchen. Baby in his high chair holds out a rattle and a sock; on the right, Mother writes in a ledger with a milk bottle under her arm. Text: \"Baby is hungry. What can Baby trade?\" and \"Nothing! But Baby is no moocher. So Mother opens an account.\"",
+   "id": "spread-03",
+   "label": "5\u20136",
+   "spots": [
+    {
+     "rect": [
+      0.7507,
+      0.4728,
+      0.131,
+      0.1284
+     ],
+     "opens": "ledger-p1",
+     "label": "Read Mother's ledger, Vol. I, page 1"
+    }
+   ]
+  },
+  {
+   "src": "images/spread-04-2400.webp",
+   "srcset": "images/spread-04-900.webp 900w, images/spread-04-1600.webp 1600w, images/spread-04-2400.webp 2400w",
+   "w": 3040,
+   "h": 1800,
+   "alt": "Spread 4. A penthouse terrace by day. Baby sits holding up a dandelion with his first smile; Mother writes it down. Text: \"Baby pays what Baby can.\" and \"Every bit counts!\"",
+   "id": "spread-04",
+   "label": "7\u20138",
+   "spots": [
+    {
+     "rect": [
+      0.6668,
+      0.4622,
+      0.1326,
+      0.1298
+     ],
+     "opens": "ledger-p2",
+     "label": "Read Mother's ledger, Vol. I, page 2"
+    }
+   ]
+  },
+  {
+   "src": "images/spread-05-2400.webp",
+   "srcset": "images/spread-05-900.webp 900w, images/spread-05-1600.webp 1600w, images/spread-05-2400.webp 2400w",
+   "w": 3040,
+   "h": 1800,
+   "alt": "Spread 5. The kitchen again, the clock at 3:50. Toddler Baby stands on a pyramid of blocks, the cookie jar under one arm and a bitten cookie held high like a torch, scowling. Mother watches from the doorway, writing. Text: \"A looter takes what he has not earned.\" and \"Baby is no looter!\"",
+   "id": "spread-05",
+   "label": "9\u201310",
+   "spots": [
+    {
+     "rect": [
+      0.7295,
+      0.4414,
+      0.108,
+      0.1081
+     ],
+     "opens": "ledger-p3",
+     "label": "Read Mother's ledger, Vol. III, page 141"
+    }
+   ]
+  },
+  {
+   "src": "images/spread-06-2400.webp",
+   "srcset": "images/spread-06-900.webp 900w, images/spread-06-1600.webp 1600w, images/spread-06-2400.webp 2400w",
+   "w": 3040,
+   "h": 1800,
+   "alt": "Spread 6. A classroom. Baby, aged about six, in a school sweater with a dollar badge, raises his hand at his desk. On the blackboard, a chalk chart of stacked gold coins doubling under a rising curve. Text: \"Baby goes to school.\" and \"At school, Baby learns about interest.\"",
+   "id": "spread-06",
+   "label": "11\u201312",
+   "spots": [
+    {
+     "rect": [
+      0.5264,
+      0.2844,
+      0.4156,
+      0.4622
+     ],
+     "opens": "ledger-p4",
+     "label": "Read Mother's ledger, Vol. VI, page 37"
+    }
+   ]
+  },
+  {
+   "src": "images/spread-07-2400.webp",
+   "srcset": "images/spread-07-900.webp 900w, images/spread-07-1600.webp 1600w, images/spread-07-2400.webp 2400w",
+   "w": 3040,
+   "h": 1800,
+   "alt": "Spread 7. Teenage Baby stands on a rock ledge high in the mountains, coat and quiff blowing, before a sunburst. Far below on the right page, Mother writes beside the car she drove him up in. Text: \"Baby wants to be free.\" and \"A free man owes nothing to anyone!\"",
+   "id": "spread-07",
+   "label": "13\u201314",
+   "spots": [
+    {
+     "rect": [
+      0.6792,
+      0.734,
+      0.0566,
+      0.0585
+     ],
+     "opens": "ledger-p5",
+     "label": "Read Mother's ledger, Vol. xi, page 203"
+    }
+   ]
+  },
+  {
+   "src": "images/spread-08-2400.webp",
+   "srcset": "images/spread-08-900.webp 900w, images/spread-08-1600.webp 1600w, images/spread-08-2400.webp 2400w",
+   "w": 3040,
+   "h": 1800,
+   "alt": "Spread 8. Dawn over the city. Grown Baby stands on the fire escape of a walk-up, fist on hip, holding his first paycheck up to the sky. On the right page, Mother posts a fat envelope in a Deco mailbox. Text: \"Hooray! Baby has a job.\" and \"Now Baby can pay his way.\"",
+   "id": "spread-08",
+   "label": "15\u201316",
+   "spots": []
+  },
+  {
+   "src": "images/back-2000.webp",
+   "srcset": "images/back-900.webp 900w, images/back-1600.webp 1600w, images/back-2000.webp 2000w",
+   "w": 2000,
+   "h": 2250,
+   "alt": "The back cover. Ages 0 to 3. Your little one will learn: to tell a trader from a moocher; that nothing is free; to count past a million. A note for parents: This book introduces Ayn Rand's principle of trade, value for value. Baby meets the moocher, who begs, and the looter, who takes. Mother charges market rates. Every professional is entitled to her fee. Reading together: When Baby is hungry, ask your child what Baby can trade. Most children have the answer by eighteen months. Q: May I forgive the balance? A: No. Forgiving a debt gives the unearned and teaches a child that values can be had without being produced. It is an irrational and anti-life act. Includes Baby's First Ledger, Vol. I. Additional volumes sold separately.",
+   "id": "back",
+   "label": "Back cover",
+   "spots": []
+  },
+  {
+   "src": "images/statement-2360.webp",
+   "srcset": "images/statement-900.webp 900w, images/statement-1600.webp 1600w, images/statement-2360.webp 2360w",
+   "w": 2360,
+   "h": 2990,
+   "alt": "A typed statement of account to Baby, dated Aug. 31, Volumes I to XIV. Charges 3,641,318.40; interest at 9 percent 6,339,020.17; less credits for the first smile, the drawing and the dandelion; balance due 9,980,245.55. Congratulations on your first paycheck. Payment plan: salary 4,333.33 a month, less a living allowance at household rates, leaves a monthly payment of 2,463.33 at a family rate of 0.1 percent; 4,944 payments; term 412 years; final payment due at age 431. Any balance outstanding at death passes to your estate and heirs, who will be notified at birth. Value for value, signed Mother.",
+   "id": "statement",
+   "label": "",
+   "spots": [],
+   "stamp": {
+    "src": "images/statement-stamp.webp",
+    "srcset": "images/statement-stamp.webp 1827w",
+    "w": 1827,
+    "h": 938,
+    "alt": "A typed statement of account to Baby, dated Aug. 31, Volumes I to XIV. Charges 3,641,318.40; interest at 9 percent 6,339,020.17; less credits for the first smile, the drawing and the dandelion; balance due 9,980,245.55. Congratulations on your first paycheck. Payment plan: salary 4,333.33 a month, less a living allowance at household rates, leaves a monthly payment of 2,463.33 at a family rate of 0.1 percent; 4,944 payments; term 412 years; final payment due at age 431. Any balance outstanding at death passes to your estate and heirs, who will be notified at birth. Value for value, signed Mother. Stamped across most of the page in large red letters: FORGIVEN.",
+    "rect": [
+     0.11314,
+     0.37157,
+     0.77415,
+     0.31371
+    ],
+    "delay_ms": 1400
+   }
+  }
+ ],
+ "inserts": {
+  "ledger-p1": {
+   "src": "images/ledger-p1-1860.webp",
+   "srcset": "images/ledger-p1-900.webp 900w, images/ledger-p1-1600.webp 1600w, images/ledger-p1-1860.webp 1860w",
+   "w": 1860,
+   "h": 1142,
+   "alt": "A handwritten page from a household cash book, Vol. I, page 1, account of Baby. Entries in pencil: delivery, labor, 19 hours at midwife rate; milk, January; diapers; shelter, one crib, one room, heated; carrying, an estimated 4 hours daily at porter rate; interest for January at 9 percent. Carried forward: 4,648.00."
+  },
+  "ledger-p2": {
+   "src": "images/ledger-p2-1860.webp",
+   "srcset": "images/ledger-p2-900.webp 900w, images/ledger-p2-1600.webp 1600w, images/ledger-p2-1860.webp 1860w",
+   "w": 1860,
+   "h": 2093,
+   "alt": "Cash book Vol. I, page 2. Night feeds at 2:10, 3:40 and 5:20 a.m. at nurse rate; song, verse 2 repeated by request; Rabbit found under the crib, Rabbit found in the car, Rabbit washed and dried before morning; a credit for the first smile, valued at 1 night's sleep, 90.00; milk, diapers, shelter and care at nanny rate for February and March; interest; a credit for a dandelion, 0.02. Carried forward: 35,663.25."
+  },
+  "ledger-p3": {
+   "src": "images/ledger-p3-1860.webp",
+   "srcset": "images/ledger-p3-900.webp 900w, images/ledger-p3-1600.webp 1600w, images/ledger-p3-1860.webp 1860w",
+   "w": 1860,
+   "h": 1727,
+   "alt": "Cash book Vol. III, page 141, in a smaller hand. Cookies, unauthorized (3); checking breathing, nightly; Go Fish, letting you win, and losing convincingly (surcharge); the drawing of Mother for the fridge, less frame, a 3.00 credit; learning the names of 41 dinosaurs; medicine, tasted first; fever, sitting up 1 night (no market; estimated); board, diapers, shelter, care, laundry and interest. Carried forward: 536,754.20."
+  },
+  "ledger-p4": {
+   "src": "images/ledger-p4-1860.webp",
+   "srcset": "images/ledger-p4-900.webp 900w, images/ledger-p4-1600.webp 1600w, images/ledger-p4-1860.webp 1860w",
+   "w": 1860,
+   "h": 1581,
+   "alt": "Cash book Vol. VI, page 37. School shoes; packed lunches, crusts removed; pretending the costume was easy to make; remembering every friend's name; rides to soccer at chauffeur rate; homework help; the month's running costs and interest; school shoes again, outgrown. Carried forward: 2,216,845.04."
+  },
+  "ledger-p5": {
+   "src": "images/ledger-p5-1860.webp",
+   "srcset": "images/ledger-p5-900.webp 900w, images/ledger-p5-1600.webp 1600w, images/ledger-p5-1860.webp 1860w",
+   "w": 1860,
+   "h": 1727,
+   "alt": "Cash book Vol. xi, page 203, in the smallest hand yet. Waiting up, 1:00 to 3:40 a.m., at negotiator rate; not mentioning the haircut; not saying \"I told you so\" (212 times); listening, 50-minute hour, at therapist rate; year abroad: flights, calls collect, the bail; running costs; car insurance, teen driver; interest, 60,021.62. Credits, this volume: nil. Carried forward: 7,912,312.52."
+  }
+ }
+}
