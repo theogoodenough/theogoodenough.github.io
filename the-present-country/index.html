@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Present Country</title>
+<meta name="description" content="The whole engraved map of the Present Country, from Scrowlemoor and the Pyle Marshes to the Fogs and the Way, with every name on it.">
+<meta property="og:title" content="The Present Country">
+<meta property="og:description" content="The whole engraved map of the Present Country, from Scrowlemoor and the Pyle Marshes to the Fogs and the Way, with every name on it.">
+<meta property="og:image" content="https://theogoodenough.github.io/the-present-country/social.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:,">
+<link rel="preload" href="fonts/title.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+  <div id="map" role="img" aria-label="Engraved map in the manner of an old Ordnance Survey one-inch sheet, in colour on cream paper, of a whole imagined country. Title cartouche at the top: THE PRESENT COUNTRY. A compass rose at the lower right and a scale bar in miles at the lower left. In the north-west, the moor SCROWLEMOOR, where every road converges on the town of Trendton, and the River Trend runs down from it into THE PYLE MARSHES on the west coast, where the river The Discourse winds in loops and never reaches the sea. In the south, THE FOGS, a grey stippled country with Blackpool on its coast and Hope (remains of) in Gothic lettering. At the centre, brown hachured heights with a trig point lettered Me and the town of Eye; on their south-east slope, the town of Brandtown, and below it Enville. In the north, a red ring road around the town of Wantage, lettered The Returns, and in the north-east a moor lettered WRIGHT SWYPE under wind lines. In the south-east, DELICACY, a deep gorge, a lake lettered Likemere, Virtue Beacon, and Wellness-next-the-Sea on the coast. A narrow uncoloured road lettered The Way runs up from the bottom edge through the Fogs and Brandtown and off the north-east edge."></div>
+  <header id="bar">
+    <h1>The Present Country</h1>
+    <nav>
+      <button type="button" id="zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
+      <button type="button" id="zoom-out" aria-label="Zoom out" title="Zoom out">&minus;</button>
+      <button type="button" id="home" aria-label="Whole map" title="Whole map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg></button>
+      <button type="button" id="full" aria-label="Full screen" title="Full screen" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5M4 4l6 6M15 4h5v5M20 4l-6 6M9 20H4v-5M4 20l6-6M15 20h5v-5M20 20l-6-6"/></svg></button>
+      <a id="pdf" href="the-present-country-map.pdf" target="_blank" rel="noopener" title="The whole sheet as a PDF (5.9 MB)">PDF</a>
+    </nav>
+  </header>
+  <p id="hint" aria-hidden="true">Drag to move about. Scroll, pinch or double-tap to zoom.</p>
+  <noscript><p class="noscript">This map needs JavaScript. <a href="the-present-country-map.pdf">Open the PDF</a> instead.</p></noscript>
+</main>
+<script src="js/openseadragon.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
