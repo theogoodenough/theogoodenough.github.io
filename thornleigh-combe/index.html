@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thornleigh Combe</title>
+<meta name="description" content="Quietways presents Thornleigh Combe: England as it was, for those who know.">
+<meta property="og:title" content="Thornleigh Combe">
+<meta property="og:description" content="Quietways presents Thornleigh Combe: England as it was, for those who know.">
+<meta property="og:image" content="https://theogoodenough.github.io/thornleigh-combe/social.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="site.json" as="fetch" crossorigin>
+<link rel="preload" href="map-1000.webp" as="image">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app" aria-busy="true">
+  <div id="map" tabindex="0" aria-label="Map. Drag to move, pinch or scroll to zoom."></div>
+  <header id="masthead"></header>
+  <div id="zoom" aria-hidden="false">
+    <button type="button" data-zoom="1" aria-label="Zoom in">+</button>
+    <button type="button" data-zoom="-1" aria-label="Zoom out">&minus;</button>
+  </div>
+  <section id="place" hidden aria-modal="true" role="dialog" aria-labelledby="place-name"></section>
+  <div id="card" hidden role="dialog" aria-live="polite"></div>
+  <noscript><p class="noscript">This map needs JavaScript.</p></noscript>
+</main>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
